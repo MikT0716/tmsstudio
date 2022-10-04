@@ -1,22 +1,30 @@
-// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+var hamburger = document.querySelector(".navbar-toggler");
+var navbar = document.querySelector(".navbar");
+var nava = document.querySelector(".container-fluid > a");
+
+function scrollFunction() {
+    if (document.documentElement.scrollTop > 80) {
+        navbar.classList.add("scrolled");
+        navbar.classList.remove("nonscrolled");
+        nava.classList.add("scrolledline");
+        nava.classList.remove("nonscrolledline");
+    } else {
+        navbar.classList.add("nonscrolled");
+        navbar.classList.remove("scrolled");
+        nava.classList.add("nonscrolledline");
+        nava.classList.remove("scrolledline");
+    }
+}
+
 window.onscroll = function () {
     scrollFunction();
 };
 
-function scrollFunction(x) {
-    if (
-        document.body.scrollTop > 80 ||
-        document.documentElement.scrollTop > 80
-    ) {
-        document.querySelector(".navbar").style.backgroundColor =
-            "rgba(60, 60, 60, 1)";
-        document.querySelector(".container-fluid > a").style.fontSize = "1em";
-        document.querySelector(".container-fluid > a").style.lineHeight = "1em";
+hamburger.onclick = function () {
+    if (document.documentElement.scrollTop < 80) {
+        console.log(document.documentElement.scrollTop);
+        navbar.classList.toggle("darkgray");
     } else {
-        document.querySelector(".navbar").style.backgroundColor =
-            "rgba(60, 60, 60, 0)";
-        document.querySelector(".container-fluid > a").style.fontSize = "1.5em";
-        document.querySelector(".container-fluid > a").style.lineHeight =
-            "1.5em";
+        navbar.classList.add("scrolled");
     }
-}
+};

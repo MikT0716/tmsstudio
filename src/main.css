@@ -44,15 +44,18 @@
     object-fit: cover;
     object-position: center;
     overflow: hidden;
-    animation: zoom 4000ms linear;
+}
+
+.carousel-item.active img {
+    animation: zoom 5000ms ease-in-out;
 }
 
 @keyframes zoom {
     from {
-        scale: 1;
+        transform: scale(1);
     }
     to {
-        scale: 1.05;
+        transform: scale(1.05);
     }
 }
 
@@ -70,8 +73,13 @@
     height: 400px;
 }
 
-.gray {
-    background-color: lightgray;
+.divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: solid rgba(0, 0, 0, 0.15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%),
+        inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
 }
 
 .contact {
@@ -89,4 +97,28 @@
 .btn-primary:hover {
     background-color: rgb(155, 221, 62) !important;
     border: none;
+}
+
+.darkgray {
+    background-color: rgba(60, 60, 60, 0.8) !important;
+}
+
+.scrolled {
+    background-color: rgba(60, 60, 60, 1);
+}
+
+.scrolledline {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+.nonscrolled {
+    background-color: rgba(60, 60, 60, 0);
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+.nonscrolledline {
+    font-size: 1em;
+    line-height: 1em;
 }
