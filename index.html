@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="src/main.css">
+    <title>TMSStudio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md fixed-top p-3">
+        <div class="container-fluid">
+            <a class="" href="#">TMSStudio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ms-4 pt-1" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CAROUSEL -->
+
+    <div id="myCarousel" class="carousel slide  align-items-center" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner align-items-center">
+
+            <div class="carousel-item active" data-bs-interval="4000">
+
+                <img class="" width="100%" height="100%"
+                    src="https://infraslimx.hu/wp-content/uploads/2018/07/isX_bb_green_r1_ps-1.jpg" aria-hidden="true"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                </img>
+                <div class=" carousel-caption text-start">
+                    <h1>InfraslimX</h1>
+                    <p>Bicikli, infra, sport, fogyás és közben Netflix? Mi kell még?</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Bejelentkezés</a></p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img class="" width="100%" height="100%"
+                    src="https://scontent-vie1-1.xx.fbcdn.net/v/t1.15752-9/309514393_2647709242026257_8857948092166919160_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=ks1lz5V8wKYAX9I3mvE&_nc_ht=scontent-vie1-1.xx&oh=03_AVKVF6uBpK1_BVFEh9roqqMfYhQz6qo-3IIpZ_fBvO78SQ&oe=635F945B"
+                    aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                </img>
+                <div class="carousel-caption text-start">
+                    <h1>EMSculpt</h1>
+                    <p>Kényelmesen fekve, zenét hallgatva zsírt égetni?</p>
+                    <p><a class="btn btn-lg btn-primary" href="#">Bejelentkezés</a></p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- INTRO PARAGRAPHS -->
+
+    <div class="px-4 my-5" id="hanging-icons">
+        <h2 class="pb-2 border-bottom my-4"></h2>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 my-4 align-items-start">
+                <h3 class="fs-2">InfraslimX</h3>
+                <p>A kombinált fitness eszközök közé tartozik, amely a legmodernebb technológiákat alkalmazva
+                    magasabb szintre emeli a testedzés alakformáló hatását. A zárt kabinban egyszerre érvényesül a
+                    vákuummasszázs, az infra kezelés, a kollagén fényterápia, az ózon- és oxigénterápia, valamint az
+                    aromaterápia jótékony hatása. Ezek egymást támogatják az alakformálás és méregtelenítés
+                    érdekében, hogy a felhasználó életminősége nagymértékben javuljon.</p>
+                <a href="#" class="btn btn-primary">
+                    További infó
+                </a>
+            </div>
+
+            <div class="col-sm-12 my-4 align-items-start">
+                <h3 class="fs-2">EMSculpt</h3>
+                <p>Az Emsculpt egy olyan forradalmi, nem műtéti testformáló eljárás, amely elektromágneses energiával,
+                    izom-összehúzódások kiváltásával egyszerre végez intenzív zsírégetést és izomépítést. Feszesíti,
+                    tonizálja, erősíti a has és a fenék nagy izomcsoportjait, valamint a kisebb testfelületeket – a
+                    felkarokat, a combokat és a vádlikat –, ezáltal pedig csökkenti a kezelt testrészek kerületét.</p>
+                <a href="#" class="btn btn-primary">
+                    További infó
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- PRICING -->
+
+
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal">Áraink</h1>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center justify-content-center my-0 mx-auto">
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Infraslim<span style="color: green; font-weight: 500;">X</span></h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">5000 ft<small class="text-muted fw-light">/alkalom</small>
+                    </h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Az ár tartalmazza:</li>
+                        <li>Törölköző</li>
+                        <li>500mL Izotóniás ital</li>
+                        <li>Tusoló használat</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Bejelentkezés</button>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal"><span style="color: green; font-weight: 500;">EM</span>sculpt</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">3000 ft<small class="text-muted fw-light">/alkalom</small>
+                    </h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>Az ár tartalmazza:</li>
+                        <li>Tusoló használat</li>
+                        <li>&nbsp;</li>
+                        <li>&nbsp;</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Bejelentkezés</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- COMPARE -->
+
+    <h2 class="display-6 text-center mb-4">Akcióink</h2>
+
+    <div class="table-responsive col-sm-9 my-4 mx-auto">
+        <table class="table text-center">
+            <thead>
+                <tr>
+                    <th style="width: 30%;"></th>
+                    <th style="width: 30%;">InfraslimX</th>
+                    <th style="width: 30%;">EMSculpt</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" class="text-start">3 alkalmas bérlet</th>
+                    <td>14 000 ft</td>
+                    <td>8 000 ft</td>
+
+                </tr>
+                <tr>
+                    <th scope="row" class="text-start">5 alkalmas bérlet</th>
+                    <td>22 000 ft</td>
+                    <td>12 000 ft</td>
+
+                </tr>
+            </tbody>
+
+            <tbody>
+                <tr>
+                    <th scope="row" class="text-start">10 alkalmas bérlet</th>
+                    <td>40 000 ft</td>
+                    <td>25 000 ft</td>
+
+                </tr>
+                <tr>
+                    <th scope="row" class="text-start">Hozd el a barátod</th>
+                    <td colspan="2">Minden 5. alkalom után 1 alkalmas kupont ajándékozhatsz egy ismerősödnek</td>
+
+                </tr>
+                <tr>
+                    <th scope="row" class="text-start">Járjon a barátod</th>
+                    <td colspan="2">Ha az ismerősöd legalább 5 alkalommal meglátogatott minket 1-1 kupon jár neked </td>
+
+
+                </tr>
+                <tr>
+                    <th scope="row" class="text-start">Ha hetente jártál minimum 6 hónapig</th>
+                    <td>Ajándék 3 alkalmas bérlet</td>
+                    <td>Ajándék 5 alkalmas bérlet</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- NEWSLETTER -->
+
+    <div class="gray my-5 px-4 py-3">
+        <h3>Iratkozz fel a hírlevelünkre, hogy elsőként értesülj akciónkról és újdonságainkról.</h3>
+        <form class="my-3 mx-auto">
+            <div class="form-group my-3">
+                <label for="exampleInputEmail1">Email cím</label>
+                <input type="email" class="form-control my-2" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="pelda@mailszolgaltato.com">
+                <small id="emailHelp" class="form-text text-muted">Ne aggódj, nem osztjuk meg senkivel se az email
+                    címed!</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Jöhetnek a hírlevelek</button>
+        </form>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-4 my-md-0 my-4 contact">
+                    <h3>TMSStudio</h3>
+                    <h5>Cím: 2096 Üröm, Damjanich utca 4.</h5>
+                    <h5>Tel.: +36 xx xxx xxxx</h5>
+                    <h5>Email: example@gmail.com</h5>
+                </div>
+                <div class="col-md-8">
+                    <div class="gmap_canvas"><iframe width="" height="" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=damjanich%20u%204%20%C3%BCr%C3%B6m&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://putlocker-is.org"></a><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                </ul>
+                <p class="text-center text-muted">&copy; 2022 TMSStudio</p>
+            </footer>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
