@@ -6,13 +6,13 @@ function scrollFunction() {
     if (document.documentElement.scrollTop > 80) {
         navbar.classList.add("scrolled");
         navbar.classList.remove("nonscrolled");
-        nava.classList.add("scrolledline");
-        nava.classList.remove("nonscrolledline");
+        // nava.classList.add("scrolledline");
+        // nava.classList.remove("nonscrolledline");
     } else {
         navbar.classList.add("nonscrolled");
         navbar.classList.remove("scrolled");
-        nava.classList.add("nonscrolledline");
-        nava.classList.remove("scrolledline");
+        // nava.classList.add("nonscrolledline");
+        // nava.classList.remove("scrolledline");
     }
 }
 

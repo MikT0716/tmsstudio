@@ -114,11 +114,9 @@
 
 .nonscrolled {
     background-color: rgba(60, 60, 60, 0);
-    font-size: 1.2em;
-    line-height: 1.2em;
 }
 
 .nonscrolledline {
-    font-size: 1em;
-    line-height: 1em;
+    font-size: 1.5em;
+    line-height: 1.5em;
 }
